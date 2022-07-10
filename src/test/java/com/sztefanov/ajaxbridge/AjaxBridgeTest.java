@@ -40,13 +40,13 @@ public class AjaxBridgeTest {
   /**
    * Test of run method, of class AjaxBridge.
    */
-//  @org.junit.jupiter.api.Test
-//  public void testRun() {
-//    System.out.println("run");
-//    AjaxBridge instance = new AjaxBridge();
-//    instance.run();
-//    // TODO review the generated test code and remove the default call to fail.
-//    fail("The test case is a prototype.");
-//  }
+  @org.junit.jupiter.api.Test
+  public void testRun() {
+    System.out.println("run");
+    AjaxBridge instance = new AjaxBridge();
+    instance.run();
+    // TODO review the generated test code and remove the default call to fail.
+    fail("The test case is a prototype.");
+  }
 
 }

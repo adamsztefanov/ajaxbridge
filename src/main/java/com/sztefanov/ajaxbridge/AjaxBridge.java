@@ -24,7 +24,7 @@ public class AjaxBridge implements Runnable {
   private static Map<String, String> getQueryMap(String query) {
 
     String[] params = query.split("&");
-    Map<String, String> map = new HashMap<String, String>();
+    Map<String, String> map = new HashMap<>();
 
     for (String param : params) {
 
